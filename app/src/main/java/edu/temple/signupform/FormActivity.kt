@@ -32,8 +32,9 @@ class FormActivity : AppCompatActivity() {
             if(cpassword.text.toString()!=password.text.toString()){
                 cpassword?.error = "Password must be the same"
             }
-
-            toast(name.text.toString())
+            else{
+                toast(name.text.toString())
+            }
 
         }
     }
